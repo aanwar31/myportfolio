@@ -1,7 +1,5 @@
 'use client';
 import { aboutMeResume, awardsData, educationData, experienceData, skillBarData } from '@/data/resumedata';
-import { SkillBarProps } from '@/types/resume';
-import { motion } from 'framer-motion';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGlobe } from 'react-icons/fa';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import SkillBar from '../common/skillbar';

@@ -1,8 +1,8 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-export default function Hero(){
+export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center py-24 px-6">
       <motion.h1
@@ -11,7 +11,7 @@ export default function Hero(){
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Hello, I'm Aamir 👋
+        Hello, I am Aamir 👋
       </motion.h1>
 
       <motion.p
@@ -20,7 +20,8 @@ export default function Hero(){
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        I'm a .NET backend developer transitioning into full-stack with a passion for building modern web apps using Next.js and AI.
+        I am a .NET backend developer transitioning into full-stack with a passion for building
+        modern web apps using Next.js and AI.
       </motion.p>
 
       <motion.div
@@ -44,4 +45,4 @@ export default function Hero(){
       </motion.div>
     </section>
   );
-};
+}
